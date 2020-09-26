@@ -1,0 +1,27 @@
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logoG {
+  width: 35vw;
+  height:auto;
+}
+#glass {
+  position: relative;
+}
+
+input {
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: auto;
+  width: 40vw;
+  min-height:7vh;
+  max-height: 10vh;
+}
