@@ -1,5 +1,10 @@
 
-
+nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #999;
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -8,20 +13,30 @@ body {
   justify-content: center;
   align-items: center;
 }
+h1 {
+  color: white;
+}
 
 #logoG {
-  width: 35vw;
+  width: 45vw;
   height:auto;
 }
-#glass {
-  position: relative;
+
+form {
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: auto;
+
 }
 
-input {
+.search {
+  min-width: 60vw;
+  min-height: 10vh;
   border-radius: 10px;
-  border: 1px solid grey;
-  font-size: auto;
-  width: 40vw;
-  min-height:7vh;
-  max-height: 10vh;
+}
+.button .button1 {
+  margin-top: 20px;
+  width: 130px;
+  text-align: center;
 }
